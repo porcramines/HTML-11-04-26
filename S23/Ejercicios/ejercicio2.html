@@ -1,0 +1,14 @@
+
+<!--
+
+https://www.mclibre.org/consultar/htmlcss/html/html-svg.html
+
+ En el primer ejemplo, se ve todo el círculo porque la zona visible definida por viewBox empieza arriba a la izquierda en el punto (-100, -100) y tiene un tamaño de 200 x 200. El tamaño de la imagen es también de 200 x 200.
+-->
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+     width="200" height="200" viewBox="-100 -100 200 200" style="background-color: lightgray">
+  <circle cx="0" cy="0" r="100" fill="none" stroke="red" stroke-width="1" />
+  <line x1="-200" y1="0" x2="200" y2="0" stroke="black" stroke-width="1" />
+  <line x1="0" y1="-200" x2="0" y2="200" stroke="black" stroke-width="1" />
+</svg>
